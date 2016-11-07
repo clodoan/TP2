@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.contenedor {
+  width: 70%;
+  margin: auto;
+}
+
+.nav {
+  display: block;
+  height: 70px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+.nav ul {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.nav li {
+  width: 10%;
+  float: right;
+  margin-top: 25px;
+}
+
+.cover {
+  font-family: "Raleway";
+  height: 1400px;
+  background-image: url("../images/indexbanner-bg3.jpg");
+  background-repeat: no-repeat;
+  color: white
+}
+
+.textos {
+  padding-top: 250px;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#subtitle {
+  font-size: 15px;
+  width: 40%;
+  font-weight: 100;
+  display: block;
+  margin: 10px;
+  line-height: 25px;
+}
+
+.formulario {
+  position: relative;
+  bottom: -250px;
+  display: block;
+  text-align: center;
+}
+#email {
+  height: 70px;
+  width: 40%;
+}
+
+#button {
+  width:20%;
+}
+
+.pricing {
+  background-image: url("../images/pricing-bg.jpg");
+}
