@@ -114,6 +114,9 @@ h1, h2, h3, h4 {
   background-image: url("../images/pricing-bg.jpg");
 }
 
+.features{
+  height: 500px;
+}
 .feature {
   width: 24%;
   display: inline-block;
@@ -121,6 +124,7 @@ h1, h2, h3, h4 {
   height: 800px;
   margin-top: 50px;
   vertical-align: top;
+  height: inherit;
 }
 
 .feature h1 {
@@ -138,3 +142,28 @@ h1, h2, h3, h4 {
   margin: 30px 10px 0px 10px;
   text-align: center;
   color: grey;
+}
+
+.titulo {
+  font-size: 40px;
+  margin: 20px 20px 40px 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 15px;
+  text-align: center;
+  color: grey;
+}
+
+.features-left {
+  display: block;
+  float: left;
+}
+
+.row {
+  height: 30%;
+
+}
