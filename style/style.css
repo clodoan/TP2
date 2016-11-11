@@ -2,7 +2,7 @@
   margin: 0px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
   font-family: "Open Sans", "Raleway", sans-serif;
 }
 
@@ -158,12 +158,84 @@ h1, h2, h3, h4 {
   color: grey;
 }
 
+.row {
+  height: 150px;
+  display: block;
+}
+
 .features-left {
   display: block;
   float: left;
+  height: inherit;
+  width: 25%;
+  margin-top: 80px;
 }
 
-.row {
-  height: 30%;
+.features-left img {
+  display: inline;
+  float: right;
+  margin-left: 30px;
+}
 
+.features-left h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  width: 200px;
+  text-align: right;
+}
+
+.features-left p {
+  display: block;
+  width: 200px;
+  margin-right: 80px;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 25px;
+  color: grey;
+  text-align: right;
+}
+
+
+.features-middle {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  height: inherit;
+  margin-top: 60px;
+
+}
+
+.features-right {
+  display: block;
+  float: right;
+  height: inherit;
+  width: 25%;
+  margin-top: 80px;
+}
+
+.features-right img {
+  display: inline;
+  float: left;
+  margin-right: 30px;
+}
+
+.features-right h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+.features-right p {
+  display: block;
+  width: 200px;
+  margin-left: 80px;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 25px;
+  color: grey;
 }
