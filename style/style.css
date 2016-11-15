@@ -20,8 +20,12 @@ h1, h2, h3, h4, p {
 .nav a {
   float: left;
   display: block;
-  margin-top:10px;
+  margin-top:23.5px;
   margin-left: 10px;
+}
+
+.nav img {
+  height: 18px;
 }
 
 .nav ul {
@@ -34,11 +38,11 @@ h1, h2, h3, h4, p {
 
 .nav li {
   width: 10%;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: grey;
   float: right;
-  margin-top: 25px;
+  margin-top: 26.5px;
 }
 
 .nav li:active {
@@ -65,7 +69,6 @@ h1, h2, h3, h4, p {
   font-size: 40px;
   font-weight: bolder;
   margin: 10px;
-
 }
 
 #subtitle {
@@ -112,11 +115,16 @@ h1, h2, h3, h4, p {
 
 .pricing {
   background-image: url("../images/pricing-bg.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 150px;
+  text-align: center;
 }
 
 .features{
   height: 500px;
 }
+
 .feature {
   width: 24%;
   display: inline-block;
@@ -168,7 +176,7 @@ h1, h2, h3, h4, p {
   float: left;
   height: inherit;
   width: 25%;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .features-left img {
@@ -213,7 +221,7 @@ h1, h2, h3, h4, p {
   float: right;
   height: inherit;
   width: 25%;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .features-right img {
@@ -238,4 +246,85 @@ h1, h2, h3, h4, p {
   font-size: 12px;
   line-height: 25px;
   color: grey;
+}
+
+.services {
+  height: 700px;
+}
+
+.price-box {
+  height: 480px;
+  width: 300px;
+  border: 1px #F7F7F7;
+  border-radius: 2px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.28);
+  margin-left: 27px;
+  padding-top: 90px;
+  background: white;
+  text-align: center;
+  flex-direction: row;
+
+
+}
+
+.price-box h4 {
+  padding-bottom: 40px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.contenedor.precio {
+  display: flex;
+  margin-top: -180px;
+}
+
+.details {
+  display: block;
+  height: 70%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#linea {
+  height: 1px;
+  width: 60%;
+  background: #D8D8D8;
+  margin:auto;
+  border: none;
+  margin-top: 40px;
+}
+
+.contenido {
+  text-align: left;
+  margin-left: 45px;
+  height: 40px;
+}
+
+.contenido p {
+  display: inline-block;
+}
+
+#quantity {
+  margin-left: 95px;
+  color: lightblue;
+}
+
+.button {
+  width: 90%;
+  height: 40px;
+  border: none;
+  margin-top: 50px;
+  background: #00B0F5;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background: #0097D2;
+  cursor: pointer;
 }
